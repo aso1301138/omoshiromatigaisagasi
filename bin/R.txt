@@ -250,10 +250,10 @@ int id action_settings 0x7f050040
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
-int id button1 0x7f05003d
-int id button2 0x7f05003f
-int id button3 0x7f05003c
+int id button2 0x7f05003c
+int id button3 0x7f05003d
 int id button4 0x7f05003e
+int id buttonStart 0x7f05003f
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d
 int id default_activity_button 0x7f050028
@@ -363,10 +363,10 @@ int string title_activity_pose 0x7f0a0014
 int string title_activity_ranking 0x7f0a0012
 int string title_activity_result 0x7f0a0015
 int string title_help 0x7f0a0019
-int string title_level 0x7f0a0017
 int string title_name 0x7f0a0016
 int string title_option 0x7f0a001a
 int string title_ranking 0x7f0a0018
+int string title_start 0x7f0a0017
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063

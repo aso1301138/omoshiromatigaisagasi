@@ -10,16 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".TopActivity" >
 
-    <TextView
-        android:id="@string/title_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:height="40dp"
-        android:text="@string/title_name" />
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,37 +20,57 @@
         android:minWidth="350dip" >
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/button1"
-            android:text="@string/title_option" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/button2"
-            android:layout_toRightOf="@+id/button1"
-            android:text="@string/title_help" />
-
-        <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/button3"
             android:layout_alignParentRight="true"
+            android:minHeight="60dp"
+            android:minWidth="160dp"
             android:text="@string/title_ranking" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:minHeight="60dp"
+            android:minWidth="160dp"
+            android:text="@string/title_help" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:minHeight="60dp"
+            android:minWidth="160dp"
+            android:text="@string/title_option" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:minHeight="60dp"
+            android:minWidth="160dp"
+            android:text="@string/title_start" />
+
+        <TextView
+            android:id="@string/title_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:minWidth="128dip"
-            android:text="@string/title_level" />
+            android:layout_marginTop="47dp"
+            android:height="60dp"
+            android:text="@string/title_name"
+            android:textSize="30sp" />
 
     </RelativeLayout>
 
