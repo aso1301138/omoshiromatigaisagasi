@@ -11,7 +11,6 @@
     <string name="title_activity_pose">PoseActivity</string>
     <string name="title_activity_result">ResultActivity</string>
 	<string name="title_name">オモシロ間違い探し</string>
-	<string name="title_start">ゲームスタート</string>
 	<string name="title_ranking">ランキング</string>
 	<string name="title_help">ヘルプ</string>
 	<string name="title_option">設定</string>

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class TopActivity extends Activity {
 
@@ -16,8 +17,8 @@ public class TopActivity extends Activity {
     
     //遷移はだいたいこんな感じで！！！
     //buttonの取得
-  	Button button = (Button)findViewById(R.id.buttonStart);
-  	button.setOnClickListener(new View.OnClickListener() {
+  	ImageButton ibtn = (ImageButton)findViewById(R.id.iBstart);
+  	ibtn.setOnClickListener(new View.OnClickListener() {
 		
 		@Override
 		public void onClick(View v) {
@@ -26,20 +27,6 @@ public class TopActivity extends Activity {
 			startActivity(start);
 		}
 	});
-  	
-  	
-  	//タップされたら
-  	//button.setOnClickListener(new view.OnClickListener() {
-		
-		//@Override
-		//public void onClick(View v) {
-			// TODO 自動生成されたメソッド・スタブ
-			//呼び出すためのインテント
-  			//Intent intent = new Intent(TopActivity.this,RankingActivity.class);
-  			//startActivity(intent);
-		//}
-	//});
-  		
     }
 
     @Override
