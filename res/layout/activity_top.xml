@@ -29,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:background="#00000000"
                 android:scaleType="fitXY"
-                android:src="@drawable/start" />
+                android:src="@drawable/start"
+                android:onClick="onClick" />
             
             <TextView
                 android:id="@+id/text_sr"
