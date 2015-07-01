@@ -5,13 +5,14 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 
 public class TopActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_top);
+        setContentView(R.layout.activity_top);      
         
         //imagebuttonの取得
         ImageButton ibs = (ImageButton)findViewById(R.id.iBstart);
@@ -59,6 +60,7 @@ public class TopActivity extends Activity {
 			}
 		}); 
     }
+    
     
 
     @Override
