@@ -14,7 +14,7 @@ public class TopBeActivity extends Activity {
 		setContentView(R.layout.activity_topbe);
 		
 		//Viewの取得
-		ImageView t_next = (ImageView)findViewById(R.id.aaaaa);
+		ImageView t_next = (ImageView)findViewById(R.id.t_next);
 		
 		t_next.setOnClickListener(new View.OnClickListener() {
 			
@@ -22,6 +22,7 @@ public class TopBeActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent intent = new Intent(TopBeActivity.this,TopActivity.class);
+				startActivity(intent);
 			}
 		});
 	}
